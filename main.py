@@ -8,7 +8,7 @@ from streamlit_extras.add_vertical_space import add_vertical_space
 
 load_dotenv()  # Load environment variables
 
-genai.configure(api_key=os.getenv("AIzaSyBBmWRncgbLw7a_Ur1YTts4OSgo_Zg6I4Y"))
+genai.configure(api_key=os.getenv("yout_api_key"))
 
 
 def get_gemini_response(input):
